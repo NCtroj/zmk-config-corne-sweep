@@ -95,7 +95,7 @@
 		&kp Q &kp W &kp F &kp P &kp G 						&kp J &kp L  &kp U    &kp Y   &kp SINGLE_QUOTE 
 		&kp A &kp R &kp S &kp T &kp D 			      &kp H &kp N &kp E &kp I   &kp O
 		&mt LSFT Z &kp X &kp C &kp V &kp B	      &kp K &kp M  &kp CMMA &kp DOT &mt RALT FSLH
-          			&mt LSFT TAB &mt LCTRL SPC  	&mt LALT BSPC &to SYMBOL 
+          			&mt LSFT TAB &mt LCTRL SPC  	&mt LALT BSPC &mt LSFT SYMBOL 
 		>;
 		};
 
@@ -103,7 +103,7 @@
 		bindings = <
 		&kp BANG  &kp ATSN      &kp HASH      &kp DLLR    &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN  &kp RPRN 
 		&kp TAB   &trans        &kp PIPE      &kp BSLH    &trans	  	      &kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp RET 
-		&kp TILDE &kp LESS_THAN &kp GREATER_THAN &trans      &trans 	          &kp UNDER &kp PLUS &kp LBRC &kp RBRC  &to NAVIGATION 
+		&kp TILDE &kp LESS_THAN &kp GREATER_THAN &tra s      &trans 	          &kp UNDER &kp PLUS &kp LBRC &kp RBRC  &to NAVIGATION 
 					                                &to DEFAULT &kp LSFT  				&kp LALT &to NUMBER 
 		>;
 		};
