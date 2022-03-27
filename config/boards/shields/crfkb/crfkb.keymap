@@ -95,7 +95,7 @@
 		&kp Q &kp W &kp F &kp P &kp G 						&kp J &kp L  &kp U    &kp Y   &kp SINGLE_QUOTE 
 		&kp A &kp R &kp S &kp T &kp D 			      &kp H &kp N &kp E &kp I   &kp O
 		&mt LSFT Z &kp X &kp C &kp V &kp B	      &kp K &kp M  &kp CMMA &kp DOT &mt RALT FSLH
-          				    &mt LSFT TAB &kp SPC  	&mt LCTRL BSPC &to SYMBOL 
+          			&mt LSFT TAB &mt LCTRL SPC  	&mt LALT BSPC &to SYMBOL 
 		>;
 		};
 
