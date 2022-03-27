@@ -133,7 +133,7 @@
 		bindings = <
 		&td LALT(F4) ESC  &mkp LCLK      &mmv MOVE_UP      &mkp RCLK          &mwh SCROLL_UP 		&kp LC(Y)       &kp LC(V)      &kp LC(C)    &kp LC(X)       &kp LC(Z)
 		&td LALT(TAB) TAB  &mmv MOVE_LEFT &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &mwh SCROLL_DOWN  	&td LC(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW &td LC(RIGHT_ARROW) RIGHT_ARROW &kp RET 
-		&td caps_word LSFT &trans         &mwh SCROLL_LEFT  &mwh SCROLL_RIGHT  &trans   				  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END         &kp DEL   
+		&caps_word &trans         &mwh SCROLL_LEFT  &mwh SCROLL_RIGHT  &trans   				  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END         &kp DEL   
 					                                    &to DEFAULT        &kp LCTRL  				&kp LALT &to SYMBOL 
 		>;
 		};	
