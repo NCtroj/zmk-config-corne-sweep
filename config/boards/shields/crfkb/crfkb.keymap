@@ -101,9 +101,9 @@
 
        		symbol_layer {
 		bindings = <
-		&kp BANG  &kp ATSN      &kp HASH      &kp DLLR    &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN  &kp RPRN 
-		&kp TAB   &trans        &kp PIPE      &kp BSLH    &trans	  	      &kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp RET 
-		&kp TILDE &kp LESS_THAN &kp GREATER_THAN &tra s      &trans 	          &kp UNDER &kp PLUS &kp LBRC &kp RBRC  &to NAVIGATION 
+		&kp BANG  &kp ATSN      &kp HASH          &kp DLLR    &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN  &kp RPRN 
+		&kp TAB   &trans        &kp PIPE          &kp BSLH    &trans	  	      &kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp RET 
+		&kp TILDE &kp LESS_THAN &kp GREATER_THAN  &trans      &trans 	          &kp UNDER &kp PLUS &kp LBRC &kp RBRC  &to NAVIGATION 
 					                                &to DEFAULT &kp LSFT  				&kp LALT &to NUMBER 
 		>;
 		};
