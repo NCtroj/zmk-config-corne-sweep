@@ -118,7 +118,7 @@
 		
 		    navigation_layer {
 		bindings = <
-		&kp ESC  &mkp LCLK      &mmv MOVE_UP      &mkp RCLK          &kp SCROLL_UP 			&kp LC(Y) &kp LC(V)   &LC(C)   &kp LC(X)  &LC(Z)
+		&kp ESC  &mkp LCLK      &mmv MOVE_UP      &mkp RCLK          &kp SCROLL_UP 			&kp LC(Y) &kp LC(V)   &LC(C)   &kp LC(X)  &kp LC(Z)
 		&kp TAB  &mmv MOVE_LEFT &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &kp SCROLL_DOWN  	&kp LEFT_ARROW  &kp LEFT_DOWN  &kp LEFT_UP &kp LEFT_RIGHT &kp ret 
 		&kp LSFT &trans         &mwh SCROLL_LEFT  &mwh SCROLL_RIGHT  &trans   				  &kp HOME &kp PAGE_DOWN  &kp PAGE_UP  &kp END &kp DEL   
 					                                    &to DEFAULT        &kp LCTRL  				&LALT &to SYMBOL 
