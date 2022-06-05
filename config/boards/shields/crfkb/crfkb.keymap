@@ -127,7 +127,7 @@
 			&td LA(F4) ESC  &trans	&trans  &trans  &trans 			&kp LC(Y)       &kp LC(V)      &kp LC(C)    &kp LC(X)       &kp LC(Z)
 			&kp TAB    	&trans  &trans	&trans  &trans  		&kp LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp RET 
 			&caps_word 	&trans  &trans  &trans  &trans   		&kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END         &kp DEL   
-					        &mt LSFT DEFAULT &kp LCTRL SPC  	&mt LALT BSPC	&to SYMBOL 
+					        &mt LSFT DEFAULT &mt LCTRL SPC  	&mt LALT BSPC	&to SYMBOL 
 		>;
 	};	
   
