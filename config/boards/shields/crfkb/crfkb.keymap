@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/mouse.h>
 
 #define DEFAULT 0
 #define SYMBOL 1
@@ -23,14 +22,6 @@
 &mt {
   //  flavor = "tap-preferred";
    // tapping_term_ms = <200>;
-};
-
-&mmv {
-    time-to-max-speed-ms = <500>;
-};
-
-&mwh {
-    acceleration-exponent=<1>;
 };
 
 / { 
@@ -133,10 +124,10 @@
 		
 	navigation_layer {
 		bindings = <
-			&td LA(F4) ESC  &mkp LCLK	&mmv MOVE_UP      &mkp RCLK          &mwh SCROLL_UP 		&kp LC(Y)       &kp LC(V)      &kp LC(C)    &kp LC(X)       &kp LC(Z)
-			&kp TAB    	&mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &mwh SCROLL_DOWN  		&kp LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp RET 
-			&caps_word 	&trans      	&mwh SCROLL_LEFT  &mwh SCROLL_RIGHT  &trans   			&kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END         &kp DEL   
-					                                    &mt LSFT DEFAULT    &kp LCTRL SPC  		&mt LALT BSPC	&to SYMBOL 
+			&td LA(F4) ESC  &trans	&trans  &trans  &trans 			&kp LC(Y)       &kp LC(V)      &kp LC(C)    &kp LC(X)       &kp LC(Z)
+			&kp TAB    	&trans  &trans	&trans  &trans  		&kp LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp RET 
+			&caps_word 	&trans  &trans  &trans  &trans   		&kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END         &kp DEL   
+					        &mt LSFT DEFAULT &kp LCTRL SPC  	&mt LALT BSPC	&to SYMBOL 
 		>;
 	};	
   
