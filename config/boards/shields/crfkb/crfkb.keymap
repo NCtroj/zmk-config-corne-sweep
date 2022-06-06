@@ -45,90 +45,12 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_function {
-            timeout-ms = <50>;
-            key-positions = <30 33>;
-            bindings = <&to FUNCTION>;
-        };
-
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-        
-         combo_tab {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp TAB>;
-        };
-        
-        combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
-        };
-        
-        combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
-        };
-        
-        combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LGUI>;
-        };
-        
-        
-        combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <17 18>;
-            bindings = <&kp RGUI>;
-        };
-
-        // symbol combos
-        combo_semicolon {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&kp SEMICOLON>;
-        };
-        combo_lparanthese {
-            timeout-ms = <50>;
-            key-positions = <2 12>;
-            bindings = <&kp LPRN>;
-        };
-        combo_rparanthese {
-            timeout-ms = <50>;
-            key-positions = <7 17>;
-            bindings = <&kp RPRN>;
-        };
-        combo_lbracket {
-            timeout-ms = <50>;
-            key-positions = <1 11>;
-            bindings = <&kp LBKT>;
-        };
-        combo_rbracket {
-            timeout-ms = <50>;
-            key-positions = <8 18>;
-            bindings = <&kp RBKT>;
-        };
-        combo_lbrace {
-            timeout-ms = <50>;
-            key-positions = <3 13>;
-            bindings = <&kp LBRC>;
-        };
-        combo_rbrace {
-            timeout-ms = <50>;
-            key-positions = <6 16>;
-            bindings = <&kp RBRC>;
-        };
-        
+        #include "combos.dtsi"        
     };
+    
     macros {
-          #include "macros.dtsi"
-     };
+        #include "macros.dtsi"
+    };
 
     behaviors {
         td: tapdance {
