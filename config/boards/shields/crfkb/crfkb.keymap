@@ -126,6 +126,9 @@
         };
         
     };
+    macros {
+          #include "macros.dtsi"
+     };
 
     behaviors {
         td: tapdance {
